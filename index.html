@@ -1,33 +1,51 @@
 <!DOCTYPE html>
 <html>
-    <head>
+
+<head>
     <style>
-    .valid {
-        border: 2px solid green;
-    }
-    .invalid {
-        border: 2px solid red;
-    }
+        body {
+            
+            background: darkcyan;
+        }
+
+        
+
+        label {
+            display: block;
+            padding: 4px 0;
+
+        }
+
+        .valid {
+            border: 2px solid green;
+        }
+
+        .invalid {
+            border: 2px solid red;
+        }
     </style>
-    </head>
+</head>
+
 <body>
 
     <form id="forma">
-   
-    <p>Ime i prezime <input id="ime"></p>
 
-   <p>Email <input id="email"></p>
 
-   <p>Lozinka <input id="lozinka"></p>
+        <label for="ime">Ime i prezime</label> <input id="ime"></p>
 
-   <button>Potvrdi</button>
- 
-   </form>
-   
-    
-    
-    
+        <label for="email">Email</label> <input id="email"></p>
 
-<script src="main.js"></script>
+        <label for="lozinka">Lozinka</label> <input id="lozinka"></p>
+
+        <button>Potvrdi</button>
+
+    </form>
+
+
+
+
+
+    <script src="main.js"></script>
 </body>
+
 </html>
